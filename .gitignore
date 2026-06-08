@@ -1,0 +1,98 @@
+# Git Ignore for AB Texel Wiki
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.sublime-workspace
+*.sublime-project
+
+# Node.js / NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.eslintcache
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Build & Distribution
+dist/
+build/
+.next/
+out/
+.nuxt/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+.env.local
+.env.*.local
+
+# Testing
+.mocha
+.test-results
+test-results/
+junit.xml
+
+# Miscellaneous
+*.log
+*.tmp
+*.temp
+*.backup
+.env
+.env.local
+.env.*.local
+secrets.json
+private/
+
+# Frontend Specific
+/.netlify
+.vercel
+static/
+public/
+
+# Backend/Database (if applicable)
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+
+# Documentation Build Output
+site/
+docs/_build/
+
+# Package Files (don't commit lock files for libraries, but do for apps)
+# package-lock.json  # Uncomment if this is an app project
+# yarn.lock         # Uncomment if using yarn in app project
+
+# IDE Project Files (Keep for team consistency, but can ignore)
+# .vscode/settings.json
+# .idea/
+
+# Markdown Temp Files
+*.md~
+*.md.bak
